@@ -26,7 +26,7 @@ self.addEventListener('activate', e => {
 self.addEventListener('fetch', e => {
   e.respondWith(
     caches.match(e.request).then(r => r || fetch(e.request).catch(() => {
-      if (e.request.destination === 'document') return caches.match('./index.html');
+      if (e.request.destination === 'document') return caches.match('./tiefbauporte.ihtml');
     }))
   );
 });
