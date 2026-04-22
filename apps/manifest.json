@@ -2,7 +2,7 @@
   "name": "TiefbauPorte Vor-Ort-Check",
   "short_name": "CheckPorte",
   "description": "BImA LIS Vor-Ort-Check & Tiefbau-Kalkulation",
-  "start_url": "./index.html",
+  "start_url": "./tiefbauporte.html",
   "display": "standalone",
   "background_color": "#1B2D5E",
   "theme_color": "#1B2D5E",
