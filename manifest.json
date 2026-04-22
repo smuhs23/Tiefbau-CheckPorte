@@ -1,14 +1,62 @@
 {
-  "name": "TiefbauPorte Vor-Ort-Check",
-  "short_name": "CheckPorte",
-  "description": "BImA LIS Vor-Ort-Check & Tiefbau-Kalkulation",
+  "name": "Union E Genius Portal",
+  "short_name": "Genius Portal",
+  "description": "Zentrales Tool-Portal für Union E / BImA LIS-Rollout",
   "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
-  "background_color": "#1B2D5E",
-  "theme_color": "#1B2D5E",
   "orientation": "any",
+  "background_color": "#0F1B3A",
+  "theme_color": "#1B2D5E",
+  "lang": "de",
+  "dir": "ltr",
   "icons": [
-    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-192-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "TiefbauPorte",
+      "short_name": "Tiefbau",
+      "description": "Vor-Ort-Check mit Karte, Trassen, Kalkulation",
+      "url": "./apps/tiefbauporte.html",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "KalkuPorte Schnellkalkulator",
+      "short_name": "KalkuPorte",
+      "description": "Schnell-Kalkulation für BImA-Positionen",
+      "url": "./apps/kalkuporte.html",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "GK-Rechner",
+      "short_name": "GK-Rechner",
+      "description": "Gemeinkosten-Kalkulator",
+      "url": "./apps/gk-rechner.html",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    }
   ]
 }
